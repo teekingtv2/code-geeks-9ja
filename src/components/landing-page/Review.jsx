@@ -14,7 +14,7 @@ const Review = () => {
       <section style={{ height: '24rem' }} className="review-bg position-relative student-review">
         <div className="bx-container">
           <div className="review-card rounded-4 position-absolute top-0 start-50 translate-middle">
-            <Row className="card-border rounded-3">
+            <Row className="rounded-3">
               <Col md={5}>
                 <Row>
                   <Col>

@@ -4,6 +4,7 @@ import { newsContent } from '../../../src/data/mockData';
 import Link from 'next/link';
 import { fetchPosts } from '@/backend/api';
 import DotLoader from 'react-spinners/DotLoader';
+import Loader from '../common/Loader';
 
 const News = () => {
   const { posts, postsLoading, postsError, mutatePosts } = fetchPosts();
@@ -92,25 +93,7 @@ const News = () => {
               </Col>
             </>
           )}
-          {postsLoading && (
-            <div
-              style={{
-                height: '100vh',
-                width: '100vw',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-              }}
-            >
-              <DotLoader
-                color="#b700ee"
-                loading={true}
-                size={30}
-                aria-label="Loading Spinner"
-                data-testid="loader"
-              />
-            </div>
-          )}
+          {postsLoading && <Loader />}
           {postsError && <div>{postsError}</div>}
           <div className="text-center text-white mt-3">
             <a href="/blog" className="fs-normal mt-4 ">
