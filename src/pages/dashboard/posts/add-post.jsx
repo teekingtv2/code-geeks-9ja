@@ -59,6 +59,7 @@ const DashboardBlogPosts = () => {
                   >
                     <h5 className="pb-4 text-start" style={{ color: '#eee', fontSize: '17px' }}>
                       Welcome to the Admin Dashboard
+                    </h5>
                   </div>
                   <div className="mb-3">
                     <AddPostForm />
