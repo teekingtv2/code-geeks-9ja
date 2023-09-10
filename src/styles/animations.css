@@ -1,0 +1,41 @@
+@keyframes updown {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes rotateComputer {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(180deg);
+  }
+  20% {
+    transform: rotate(359deg);
+  }
+  30% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  70% {
+    transform: rotate(280deg);
+  }
+  80% {
+    transform: rotate(300deg);
+  }
+  90% {
+    transform: rotate(359deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
