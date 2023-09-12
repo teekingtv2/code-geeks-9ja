@@ -38,9 +38,9 @@ export default async function handler(req, res) {
     await connect();
     await newApplicant.save();
 
-    const send_to = `${body.name} <${body.email}>`;
+    const send_to = body.email;
     const reply_to = process.env.CONTACT_EMAIL;
-    const send_from = `${process.env.APP_NAME} - <${process.env.APP_EMAIL}>`;
+    const send_from = process.env.APP_EMAIL;
     const subject = 'Successfully Registered - Code Geeks 9ja';
 
     const email_body = registerTemp(fName, course, tools, period, manualUrl);
