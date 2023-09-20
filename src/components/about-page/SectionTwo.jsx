@@ -10,7 +10,7 @@ const SectionTwo = () => {
             <div className="dark-shadow-lg border text-white rounded-4 p-md-4 p-3 mt-5 ">
               <p className="text-color text-center">How Code Geeks 9ja Works</p>
 
-              <p className="fs-small" style={{ textAlign: 'justify' }}>
+              <p className="fs-normal" style={{ textAlign: 'justify' }}>
                 At Code Geeks 9ja, things done differently. Our mentees have daily direct access to
                 their assigned trainers after classes, with healthy close relationship that gives
                 them more absolute freedom to learn and progress at a lightening speed. Their

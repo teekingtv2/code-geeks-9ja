@@ -1,6 +1,6 @@
-import "animate.css";
-import { Col, Row } from "react-bootstrap";
-import TrackVisibility from "react-on-screen";
+import 'animate.css';
+import { Col, Row } from 'react-bootstrap';
+import TrackVisibility from 'react-on-screen';
 
 const banner = () => {
   return (
@@ -15,9 +15,7 @@ const banner = () => {
             {({ isVisible }) => (
               <div
                 className={
-                  isVisible
-                    ? "animate__slower animate__animated animate__fadeInTopLeft"
-                    : ""
+                  isVisible ? 'animate__slower animate__animated animate__fadeInTopLeft' : ''
                 }
               >
                 <div className=" mt-3 mb-5 mb-md-0">
@@ -26,10 +24,10 @@ const banner = () => {
                     alt="Code Geeks 9ja"
                     className="img-fluid p-3 p-md-0 "
                     style={{
-                      width: "35rem",
-                      height: "auto",
-                      borderTopRightRadius: "50px",
-                      borderBottomRightRadius: "50px",
+                      width: '35rem',
+                      height: 'auto',
+                      borderTopRightRadius: '50px',
+                      borderBottomRightRadius: '50px',
                     }}
                   />
                 </div>
@@ -43,41 +41,35 @@ const banner = () => {
             {({ isVisible }) => (
               <div
                 className={
-                  isVisible
-                    ? "animate__slower animate__animated animate__lightSpeedInRight"
-                    : ""
+                  isVisible ? 'animate__slower animate__animated animate__lightSpeedInRight' : ''
                 }
               >
                 <div
                   className="dark-shadow-lg border text-white rounded-4 p-md-4 mt-4 p-3 mb-3"
-                  style={{ backgroundColor: "#0000004f !important" }}
+                  style={{ backgroundColor: '#0000004f !important' }}
                 >
-                  <p className="fs-small">
-                    Code Geeks 9ja is a tech training institute that offers
-                    training services to individuals to master the act of coding
-                    the right way. It provides effective private trainings and
-                    personified learning experiences that are designed to make
-                    individuals master software development skills rather than
-                    becoming just another average developers, and beyond just
-                    being a good coder, a top professional at it.
+                  <p className="fs-normal">
+                    Code Geeks 9ja is a tech training institute that offers training services to
+                    individuals to master the act of coding the right way. It provides effective
+                    private trainings and personified learning experiences that are designed to make
+                    individuals master software development skills rather than becoming just another
+                    average developers, and beyond just being a good coder, a top
+                    professional at it.
                   </p>
 
-                  <p className="fs-small ">
-                    Software development is a very high paying job. However, it
-                    is not as easy to learn. With statistics showing that over
-                    60% trainees end up abandoning the career pursuit due to the
-                    complexity of software development and the level of
-                    commitment required. There are various training centres in
-                    the country already but we have verified that most of these
-                    training institutes treat it as a business rather than
-                    mentorship for career growth. Students are often left
-                    confused about the next line of action following the
-                    completion of training programs which in most cases lasts
-                    for 6 months. What is more, training institutes are more
-                    concerned about getting the next batch of trainees rather
-                    than establishing that the courses were successfully learnt,
-                    skills were confidently acquired, and also provide the
-                    needed guidance following the completion of the program.
+                  <p className="fs-normal ">
+                    Software development is a very high paying job. However, it is not as easy to
+                    learn. With statistics showing that over 60% trainees end up abandoning the
+                    career pursuit due to the complexity of software development and the level of
+                    commitment required. There are various training centres in the country already
+                    but we have verified that most of these training institutes treat it as a
+                    business rather than mentorship for career growth. Students are often left
+                    confused about the next line of action following the completion of training
+                    programs which in most cases lasts for 6 months. What is more, training
+                    institutes are more concerned about getting the next batch of trainees rather
+                    than establishing that the courses were successfully learnt, skills were
+                    confidently acquired, and also provide the needed guidance following the
+                    completion of the program.
                   </p>
                 </div>
               </div>
