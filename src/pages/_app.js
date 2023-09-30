@@ -3,7 +3,7 @@ import Layout from '../layout/Layout';
 import '../styles/globals.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { useEffect, useState } from 'react';
-import DotLoader from 'react-spinners/DotLoader';
+import Loader from '@/components/common/Loader';
 
 const override = {
   display: 'block',
@@ -38,14 +38,7 @@ function MyApp({ Component, pageProps }) {
                 justifyContent: 'center',
               }}
             >
-              <DotLoader
-                color={color}
-                loading={loading}
-                cssOverride={override}
-                size={70}
-                aria-label="Loading Spinner"
-                data-testid="loader"
-              />
+              <Loader />
             </div>
           )}
         </>

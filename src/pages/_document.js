@@ -7,6 +7,15 @@ export default function Document() {
         <link rel="icon" href="/favicon.png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.ico" />
         <link rel="icon" href="/favicon.ico" />
+        <title>Welcome to Code Geeks 9ja</title>
+        <meta
+          name="description"
+          content="Welcome to the world of coding skill mastery where you can acquire coding skills through effective private trainings and personified learning experiences that are designed to make you the next Code Geeks in Nigeria"
+        />
+        <meta
+          name="keywords"
+          content="IT schools in Lagos, coding schools in Lagos, coding schools in Ngeria, software development training, web development training, mobile app development training, mobile app development, Code geeks 9ja, code expert in Nigeria, code geeks naija"
+        />
       </Head>
 
       <body>
