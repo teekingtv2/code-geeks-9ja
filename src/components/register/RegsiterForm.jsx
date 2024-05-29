@@ -114,12 +114,11 @@ const RegsiterForm = () => {
                       <option value="">Select Course</option>
                       <option value="Fullstack Web">Fullstack Web</option>
                       <option value="Frontend Web">Frontend Web</option>
-                      <option value="Backend Web">Backend Web</option>
+                      <option value="Backend Dev">Backend For Multipurpose Use</option>
                       <option value="Fullstack Mobile">Fullstack Mobile</option>
-                      <option value="Frontend Mobile (React Native)">
-                        Frontend Mobile (React Native)
+                      <option value="Data Analysis, Visualisation & Mining">
+                        Data Analysis, Visualisation & Mining
                       </option>
-                      <option value="Frontend Mobile (Flutter)">Frontend Mobile (Flutter)</option>
                     </select>
                     <ErrorMessage name="course" component="span" className="error" />
                   </Col>
