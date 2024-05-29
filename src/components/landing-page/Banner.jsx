@@ -79,7 +79,7 @@ const banner = () => {
               <div
                 className={isVisible ? 'animate__slower animate__animated animate__flipInX' : ''}
               >
-                <Image />
+                {/* <Image /> */}
                 <div className="mt-0 mt-md-5" style={{ width: '100%', background: 'transparent' }}>
                   <span className="fw-bold text-white fs-normal text-center border rounded-4 p-2 mb-4 text-center w-fluid">
                     Welcome to the world of coding skill mastery

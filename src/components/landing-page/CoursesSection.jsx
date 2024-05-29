@@ -153,7 +153,7 @@ const courses = () => {
             <div className="card border bg-color px-4 py-2 py-md-4 text-white dark-shadow-lg avaliable-courses-card ">
               <h3>
                 <img
-                  src="/assets/flutter.png"
+                  src="/assets/python.png"
                   height={40}
                   width={40}
                   alt="Code Geeks 9ja"
@@ -161,11 +161,9 @@ const courses = () => {
                 />
               </h3>
               <div className="card-title">
-                <h6 className="fs-small">MOBILE APP DEVELOPMENT</h6>
+                <h6 className="fs-small">DATA ANALYSIS, VISUALISATION & MINING</h6>
               </div>
-              <p className="fs-small footer-text-color">
-                Flutter (Dart) frontend, NodeJS+Express & MongoDB
-              </p>
+              <p className="fs-small footer-text-color">Excel, SQL, Tableau, PowerBi, RapidMiner</p>
             </div>
           </Col>
         </Row>
